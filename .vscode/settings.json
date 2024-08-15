@@ -8,10 +8,12 @@
     },
     "idf.espIdfPath": "/Users/omelaweng/esp/v5.2.2/esp-idf",
     "idf.openOcdConfigs": [
-        "board/esp32-wrover-kit-3.3v.cfg"
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
     ],
     "idf.port": "/dev/tty.usbserial-0001",
     "idf.pythonBinPath": "/Users/omelaweng/.espressif/python_env/idf5.2_py3.12_env/bin/python",
     "idf.toolsPath": "/Users/omelaweng/.espressif",
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+    "idf.gitPath": "git"
 }
