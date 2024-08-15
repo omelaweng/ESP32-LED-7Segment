@@ -32,4 +32,6 @@ public:
     void DisplayNum7();
     void DisplayNum8();
     void DisplayNum9();
+    void DisplayOff();
+    void DisplayOn();
 };
